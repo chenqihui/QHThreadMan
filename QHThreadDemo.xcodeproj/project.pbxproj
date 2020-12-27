@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B26207257DD2D000A979C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26206257DD2D000A979C3 /* AppDelegate.m */; };
+		74B2620B257DD2D000A979C3 /* QHTableRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B2620A257DD2D000A979C3 /* QHTableRootViewController.m */; };
+		74B2620E257DD2D000A979C3 /* QHDetailRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B2620D257DD2D000A979C3 /* QHDetailRootViewController.m */; };
+		74B26212257DD2D000A979C3 /* QHTableSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26211257DD2D000A979C3 /* QHTableSubViewController.m */; };
+		74B26214257DD2D000A979C3 /* QHTableSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B26213257DD2D000A979C3 /* QHTableSubViewController.xib */; };
+		74B26217257DD2D000A979C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26216257DD2D000A979C3 /* ViewController.m */; };
+		74B2621A257DD2D000A979C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B26218257DD2D000A979C3 /* Main.storyboard */; };
+		74B2621E257DD2D100A979C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B2621D257DD2D100A979C3 /* Assets.xcassets */; };
+		74B26221257DD2D100A979C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B2621F257DD2D100A979C3 /* LaunchScreen.storyboard */; };
+		74B26224257DD2D100A979C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26223257DD2D100A979C3 /* main.m */; };
+		74B26230257DD39300A979C3 /* QHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B2622F257DD39300A979C3 /* QHThread.m */; };
+		74B26235257DD3B300A979C3 /* QHGCDThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26234257DD3B300A979C3 /* QHGCDThread.m */; };
+		74B2623D257E1BCA00A979C3 /* ijksdl_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 74B2623A257E1BCA00A979C3 /* ijksdl_thread.c */; };
+		74B2623E257E1BCA00A979C3 /* ijksdl_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 74B2623B257E1BCA00A979C3 /* ijksdl_mutex.c */; };
+		74B26248257E22E600A979C3 /* ijksdl_thread_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B26247257E22E600A979C3 /* ijksdl_thread_ios.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74B26202257DD2D000A979C3 /* QHThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B26205257DD2D000A979C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74B26206257DD2D000A979C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74B26209257DD2D000A979C3 /* QHTableRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHTableRootViewController.h; sourceTree = "<group>"; };
+		74B2620A257DD2D000A979C3 /* QHTableRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHTableRootViewController.m; sourceTree = "<group>"; };
+		74B2620C257DD2D000A979C3 /* QHDetailRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHDetailRootViewController.h; sourceTree = "<group>"; };
+		74B2620D257DD2D000A979C3 /* QHDetailRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHDetailRootViewController.m; sourceTree = "<group>"; };
+		74B26210257DD2D000A979C3 /* QHTableSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHTableSubViewController.h; sourceTree = "<group>"; };
+		74B26211257DD2D000A979C3 /* QHTableSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHTableSubViewController.m; sourceTree = "<group>"; };
+		74B26213257DD2D000A979C3 /* QHTableSubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHTableSubViewController.xib; sourceTree = "<group>"; };
+		74B26215257DD2D000A979C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74B26216257DD2D000A979C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74B26219257DD2D000A979C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B2621D257DD2D100A979C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B26220257DD2D100A979C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B26222257DD2D100A979C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B26223257DD2D100A979C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B2622E257DD39300A979C3 /* QHThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHThread.h; sourceTree = "<group>"; };
+		74B2622F257DD39300A979C3 /* QHThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHThread.m; sourceTree = "<group>"; };
+		74B26233257DD3B300A979C3 /* QHGCDThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHGCDThread.h; sourceTree = "<group>"; };
+		74B26234257DD3B300A979C3 /* QHGCDThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHGCDThread.m; sourceTree = "<group>"; };
+		74B26239257E1BCA00A979C3 /* ijksdl_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_thread.h; sourceTree = "<group>"; };
+		74B2623A257E1BCA00A979C3 /* ijksdl_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijksdl_thread.c; sourceTree = "<group>"; };
+		74B2623B257E1BCA00A979C3 /* ijksdl_mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijksdl_mutex.c; sourceTree = "<group>"; };
+		74B2623C257E1BCA00A979C3 /* ijksdl_mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_mutex.h; sourceTree = "<group>"; };
+		74B26240257E1C0300A979C3 /* ijksdl_misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ijksdl_misc.h; sourceTree = "<group>"; };
+		74B26242257E1C2D00A979C3 /* ijksdl_log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ijksdl_log.h; sourceTree = "<group>"; };
+		74B26244257E1C4B00A979C3 /* ijksdl_inc_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ijksdl_inc_internal.h; sourceTree = "<group>"; };
+		74B26246257E22E500A979C3 /* ijksdl_thread_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_thread_ios.h; sourceTree = "<group>"; };
+		74B26247257E22E600A979C3 /* ijksdl_thread_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ijksdl_thread_ios.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B261FF257DD2D000A979C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B261F9257DD2D000A979C3 = {
+			isa = PBXGroup;
+			children = (
+				74B26204257DD2D000A979C3 /* QHThreadDemo */,
+				74B26203257DD2D000A979C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B26203257DD2D000A979C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B26202257DD2D000A979C3 /* QHThreadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B26204257DD2D000A979C3 /* QHThreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74B26238257E1BB300A979C3 /* IJKSDLThread */,
+				74B2622D257DD36100A979C3 /* QHThreadMan */,
+				74B26205257DD2D000A979C3 /* AppDelegate.h */,
+				74B26206257DD2D000A979C3 /* AppDelegate.m */,
+				74B26215257DD2D000A979C3 /* ViewController.h */,
+				74B26216257DD2D000A979C3 /* ViewController.m */,
+				74B26218257DD2D000A979C3 /* Main.storyboard */,
+				74B2621D257DD2D100A979C3 /* Assets.xcassets */,
+				74B2621F257DD2D100A979C3 /* LaunchScreen.storyboard */,
+				74B26222257DD2D100A979C3 /* Info.plist */,
+				74B26223257DD2D100A979C3 /* main.m */,
+				74B26208257DD2D000A979C3 /* QHTableController */,
+				74B2620F257DD2D000A979C3 /* QHTableSubController */,
+			);
+			path = QHThreadDemo;
+			sourceTree = "<group>";
+		};
+		74B26208257DD2D000A979C3 /* QHTableController */ = {
+			isa = PBXGroup;
+			children = (
+				74B26209257DD2D000A979C3 /* QHTableRootViewController.h */,
+				74B2620A257DD2D000A979C3 /* QHTableRootViewController.m */,
+				74B2620C257DD2D000A979C3 /* QHDetailRootViewController.h */,
+				74B2620D257DD2D000A979C3 /* QHDetailRootViewController.m */,
+			);
+			path = QHTableController;
+			sourceTree = "<group>";
+		};
+		74B2620F257DD2D000A979C3 /* QHTableSubController */ = {
+			isa = PBXGroup;
+			children = (
+				74B26210257DD2D000A979C3 /* QHTableSubViewController.h */,
+				74B26211257DD2D000A979C3 /* QHTableSubViewController.m */,
+				74B26213257DD2D000A979C3 /* QHTableSubViewController.xib */,
+			);
+			path = QHTableSubController;
+			sourceTree = "<group>";
+		};
+		74B2622D257DD36100A979C3 /* QHThreadMan */ = {
+			isa = PBXGroup;
+			children = (
+				74B2622E257DD39300A979C3 /* QHThread.h */,
+				74B2622F257DD39300A979C3 /* QHThread.m */,
+				74B26233257DD3B300A979C3 /* QHGCDThread.h */,
+				74B26234257DD3B300A979C3 /* QHGCDThread.m */,
+			);
+			path = QHThreadMan;
+			sourceTree = "<group>";
+		};
+		74B26238257E1BB300A979C3 /* IJKSDLThread */ = {
+			isa = PBXGroup;
+			children = (
+				74B26244257E1C4B00A979C3 /* ijksdl_inc_internal.h */,
+				74B26242257E1C2D00A979C3 /* ijksdl_log.h */,
+				74B26240257E1C0300A979C3 /* ijksdl_misc.h */,
+				74B2623B257E1BCA00A979C3 /* ijksdl_mutex.c */,
+				74B2623C257E1BCA00A979C3 /* ijksdl_mutex.h */,
+				74B2623A257E1BCA00A979C3 /* ijksdl_thread.c */,
+				74B26239257E1BCA00A979C3 /* ijksdl_thread.h */,
+				74B26246257E22E500A979C3 /* ijksdl_thread_ios.h */,
+				74B26247257E22E600A979C3 /* ijksdl_thread_ios.m */,
+			);
+			path = IJKSDLThread;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B26201257DD2D000A979C3 /* QHThreadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B26227257DD2D100A979C3 /* Build configuration list for PBXNativeTarget "QHThreadDemo" */;
+			buildPhases = (
+				74B261FE257DD2D000A979C3 /* Sources */,
+				74B261FF257DD2D000A979C3 /* Frameworks */,
+				74B26200257DD2D000A979C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHThreadDemo;
+			productName = QHThreadDemo;
+			productReference = 74B26202257DD2D000A979C3 /* QHThreadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B261FA257DD2D000A979C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					74B26201257DD2D000A979C3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 74B261FD257DD2D000A979C3 /* Build configuration list for PBXProject "QHThreadDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B261F9257DD2D000A979C3;
+			productRefGroup = 74B26203257DD2D000A979C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B26201257DD2D000A979C3 /* QHThreadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B26200257DD2D000A979C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B26214257DD2D000A979C3 /* QHTableSubViewController.xib in Resources */,
+				74B26221257DD2D100A979C3 /* LaunchScreen.storyboard in Resources */,
+				74B2621E257DD2D100A979C3 /* Assets.xcassets in Resources */,
+				74B2621A257DD2D000A979C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B261FE257DD2D000A979C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B2620E257DD2D000A979C3 /* QHDetailRootViewController.m in Sources */,
+				74B2620B257DD2D000A979C3 /* QHTableRootViewController.m in Sources */,
+				74B26230257DD39300A979C3 /* QHThread.m in Sources */,
+				74B26207257DD2D000A979C3 /* AppDelegate.m in Sources */,
+				74B26212257DD2D000A979C3 /* QHTableSubViewController.m in Sources */,
+				74B26248257E22E600A979C3 /* ijksdl_thread_ios.m in Sources */,
+				74B26224257DD2D100A979C3 /* main.m in Sources */,
+				74B26217257DD2D000A979C3 /* ViewController.m in Sources */,
+				74B26235257DD3B300A979C3 /* QHGCDThread.m in Sources */,
+				74B2623E257E1BCA00A979C3 /* ijksdl_mutex.c in Sources */,
+				74B2623D257E1BCA00A979C3 /* ijksdl_thread.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74B26218257DD2D000A979C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B26219257DD2D000A979C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B2621F257DD2D100A979C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B26220257DD2D100A979C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B26225257DD2D100A979C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74B26226257DD2D100A979C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B26228257DD2D100A979C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 559F36FNHV;
+				INFOPLIST_FILE = QHThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74B26229257DD2D100A979C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 559F36FNHV;
+				INFOPLIST_FILE = QHThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B261FD257DD2D000A979C3 /* Build configuration list for PBXProject "QHThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B26225257DD2D100A979C3 /* Debug */,
+				74B26226257DD2D100A979C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B26227257DD2D100A979C3 /* Build configuration list for PBXNativeTarget "QHThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B26228257DD2D100A979C3 /* Debug */,
+				74B26229257DD2D100A979C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B261FA257DD2D000A979C3 /* Project object */;
+}
